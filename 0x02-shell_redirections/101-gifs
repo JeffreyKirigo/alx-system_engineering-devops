@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name \*.gif -print "%f\n" |LC_ALL=C sort -i|cut -b -5
+find . -type f -name \*.gif -print "%f\n" |LC_ALL=C sort -i|cut -c [(.),(g),(i),(f)]
