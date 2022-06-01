@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {0..99}.{00..99}| tr ' ' '\n' $NUM
+printf "%.2f\n" $NUM
