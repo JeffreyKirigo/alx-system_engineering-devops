@@ -1,0 +1,2 @@
+#!/bin/bash
+ls *$%2=0 |cut -f1
