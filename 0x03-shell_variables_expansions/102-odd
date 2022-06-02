@@ -1,2 +1,2 @@
 #!/bin/bash
-ls |cut -f1
+sort | perl -ne 'print if $. % 2 != 0'
