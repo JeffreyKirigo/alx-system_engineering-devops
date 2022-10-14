@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# displays:
+# The content of the current directory
+# In a list format
+# without nunber and dashes
+
+list=$(ls)
+for entry in $list/*
+do
+  echo ${entry##*-}
+done
