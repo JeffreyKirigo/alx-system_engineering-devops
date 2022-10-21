@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-sudo netstat -l -p
+# displays listening ports only with PID and name 
+
+netstat -l -p
