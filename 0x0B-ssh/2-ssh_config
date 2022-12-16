@@ -1,0 +1,7 @@
+# Client configuration file
+Host qwerty
+  Hostname 35.175.64.149
+  User ubuntu
+  IdentitiesOnly yes
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no  
