@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    Returns to-do list information for a given employee ID.
+Returns information about employee TODO list progress
 """
 import requests
 import sys
