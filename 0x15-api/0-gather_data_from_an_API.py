@@ -8,7 +8,7 @@ import sys
 if __name__ == "__main__":
     num = sys.argv
     if len(num) > 1:
-        url = 'https://jsonplaceholder.typicode.com'
+        url = "https://jsonplaceholder.typicode.com"
         user = requests.get(f'{url}/users/{num[1]}').json()
         todos = requests.get(f'{url}/todos', params={"userId": num[1]}).json()
 
