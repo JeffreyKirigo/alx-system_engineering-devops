@@ -6,11 +6,9 @@ import requests
 import sys
 
 if __name__ == "__main__":
-    num = sys.argv
-    if len(num) > 1:
         url = "https://jsonplaceholder.typicode.com"
-        user = requests.get(f'{url}/users/{num[1]}').json()
-        todos = requests.get(f'{url}/todos', params={"userId": num[1]}).json()
+        user = requests.get(f'{url}/users/{sys.argv[1]}').json()
+        todos = requests.get(f'{url}/todos', params={"userId": sys.argv[1]}).json()
 
         completed = [t.get("title") for t in todos if t.get("completed") is True]
         print(
