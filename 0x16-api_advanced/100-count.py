@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Contains the count_words function"""
+
+"""Contains the count words function"""
 import requests
 
 
