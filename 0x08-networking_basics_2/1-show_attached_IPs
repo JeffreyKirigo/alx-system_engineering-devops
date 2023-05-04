@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# show attached ipv4 ips
+
+ip -o -4 addr show | awk '{print $4}' | cut -d "/" -f 1
