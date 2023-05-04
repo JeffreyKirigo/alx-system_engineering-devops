@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# eaves dropper
+
+sudo nc -l localhost 98
