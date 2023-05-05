@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-display listening port and their PID
+# display listening port and their PID
 
 sudo netstat -l --program
