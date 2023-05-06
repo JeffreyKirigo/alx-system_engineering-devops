@@ -2,7 +2,7 @@
 # Resolve localhost to 127.0.0.2
 # Resolve fb to 8.8.8.8
 
-sudo cp "/etc/hosts" "$HOME/hosts.new"
-echo "127.0.0.2 \tlocalhost" > "$HOME/hosts.new"
-echo "8.8.8.8 \tfacebook.com" >> "$HOME/hosts.new"
-sudo cp -f "$HOME/hosts.new" "/etc/hosts"
+cp /etc/hosts ~/hosts.new
+echo -e "127.0.0.2 \tlocalhost" > ~/hosts.new
+echo -e "8.8.8.8 \tfacebook.com" >> ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
