@@ -1,0 +1,7 @@
+# Client configuration file
+Host alx-ubuntu
+  Hostname 54.224.46.93
+  User ubuntu
+  IdentitiesOnly yes
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no
